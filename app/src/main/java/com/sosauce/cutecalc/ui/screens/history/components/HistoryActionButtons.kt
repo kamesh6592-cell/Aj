@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.screens.history.components
+package com.ajstudioz.ajcalc.ui.screens.history.components
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.foundation.layout.Row
@@ -19,9 +19,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.sosauce.cutecalc.R
-import com.sosauce.cutecalc.data.datastore.rememberHistoryNewestFirst
-import com.sosauce.cutecalc.ui.shared_components.CuteDropdownMenuItem
+import com.ajstudioz.ajcalc.R
+import com.ajstudioz.ajcalc.data.datastore.rememberHistoryNewestFirst
+import com.ajstudioz.ajcalc.ui.shared_components.CuteDropdownMenuItem
 
 @Composable
 fun HistoryActionButtons(

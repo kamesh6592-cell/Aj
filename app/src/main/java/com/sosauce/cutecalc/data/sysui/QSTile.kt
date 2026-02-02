@@ -1,11 +1,11 @@
-package com.sosauce.cutecalc.data.sysui
+package com.ajstudioz.ajcalc.data.sysui
 
 import android.app.PendingIntent
 import android.content.Intent
 import android.os.Build
 import android.service.quicksettings.TileService
 import androidx.annotation.RequiresApi
-import com.sosauce.cutecalc.MainActivity
+import com.ajstudioz.ajcalc.MainActivity
 
 @RequiresApi(Build.VERSION_CODES.N)
 class QSTile : TileService() {

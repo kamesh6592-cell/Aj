@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.data.calculator
+package com.ajstudioz.ajcalc.data.calculator
 
 import com.notkamui.keval.Keval
 import com.notkamui.keval.KevalInvalidArgumentException

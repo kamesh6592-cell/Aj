@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.navigation
+package com.ajstudioz.ajcalc.ui.navigation
 
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.LocalActivity
@@ -20,14 +20,14 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.sosauce.cutecalc.data.actions.CalcAction
-import com.sosauce.cutecalc.ui.screens.calculator.CalculatorScreen
-import com.sosauce.cutecalc.ui.screens.calculator.CalculatorViewModel
-import com.sosauce.cutecalc.ui.screens.history.HistoryScreen
-import com.sosauce.cutecalc.ui.screens.history.HistoryViewModel
-import com.sosauce.cutecalc.ui.screens.settings.SettingsScreen
-import com.sosauce.cutecalc.utils.CalculatorViewModelFactory
-import com.sosauce.cutecalc.utils.HistoryViewModelFactory
+import com.ajstudioz.ajcalc.data.actions.CalcAction
+import com.ajstudioz.ajcalc.ui.screens.calculator.CalculatorScreen
+import com.ajstudioz.ajcalc.ui.screens.calculator.CalculatorViewModel
+import com.ajstudioz.ajcalc.ui.screens.history.HistoryScreen
+import com.ajstudioz.ajcalc.ui.screens.history.HistoryViewModel
+import com.ajstudioz.ajcalc.ui.screens.settings.SettingsScreen
+import com.ajstudioz.ajcalc.utils.CalculatorViewModelFactory
+import com.ajstudioz.ajcalc.utils.HistoryViewModelFactory
 import kotlinx.coroutines.launch
 
 @Composable

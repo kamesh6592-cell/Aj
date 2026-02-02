@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.screens.settings
+package com.ajstudioz.ajcalc.ui.screens.settings
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.navigationBarsPadding
@@ -16,16 +16,16 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
-import com.sosauce.cutecalc.R
-import com.sosauce.cutecalc.data.datastore.rememberHistoryMaxItems
-import com.sosauce.cutecalc.data.datastore.rememberSaveErrorsToHistory
-import com.sosauce.cutecalc.data.datastore.rememberUseHistory
-import com.sosauce.cutecalc.ui.screens.settings.components.SettingsDropdownMenu
-import com.sosauce.cutecalc.ui.screens.settings.components.SettingsSwitch
-import com.sosauce.cutecalc.ui.screens.settings.components.SettingsWithTitle
-import com.sosauce.cutecalc.ui.shared_components.CuteDropdownMenuItem
-import com.sosauce.cutecalc.ui.shared_components.CuteNavigationButton
-import com.sosauce.cutecalc.utils.selfAlignHorizontally
+import com.ajstudioz.ajcalc.R
+import com.ajstudioz.ajcalc.data.datastore.rememberHistoryMaxItems
+import com.ajstudioz.ajcalc.data.datastore.rememberSaveErrorsToHistory
+import com.ajstudioz.ajcalc.data.datastore.rememberUseHistory
+import com.ajstudioz.ajcalc.ui.screens.settings.components.SettingsDropdownMenu
+import com.ajstudioz.ajcalc.ui.screens.settings.components.SettingsSwitch
+import com.ajstudioz.ajcalc.ui.screens.settings.components.SettingsWithTitle
+import com.ajstudioz.ajcalc.ui.shared_components.CuteDropdownMenuItem
+import com.ajstudioz.ajcalc.ui.shared_components.CuteNavigationButton
+import com.ajstudioz.ajcalc.utils.selfAlignHorizontally
 
 @Composable
 fun SettingsHistory(

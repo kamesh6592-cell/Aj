@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.screens.history.components
+package com.ajstudioz.ajcalc.ui.screens.history.components
 
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.ButtonDefaults
@@ -9,7 +9,7 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import com.sosauce.cutecalc.R
+import com.ajstudioz.ajcalc.R
 
 @Composable
 fun DeletionConfirmationDialog(

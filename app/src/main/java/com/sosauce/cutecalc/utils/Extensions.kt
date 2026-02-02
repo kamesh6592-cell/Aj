@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.utils
+package com.ajstudioz.ajcalc.utils
 
 import android.app.Activity
 import android.os.Build
@@ -20,7 +20,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
-import com.sosauce.cutecalc.domain.model.Calculation
+import com.ajstudioz.ajcalc.domain.model.Calculation
 import java.text.DecimalFormatSymbols
 
 fun Modifier.thenIf(

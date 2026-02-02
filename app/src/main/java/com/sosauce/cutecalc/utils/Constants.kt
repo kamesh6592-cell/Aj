@@ -1,7 +1,7 @@
-package com.sosauce.cutecalc.utils
+package com.ajstudioz.ajcalc.utils
 
 const val CUTE_MUSIC = "com.sosauce.cutemusic"
-const val GITHUB_RELEASES = "https://github.com/sosauce/CuteCalc/releases"
+const val GITHUB_RELEASES = "https://github.com.ajstudioz.ajcalc/releases"
 const val SUPPORT_PAGE = "https://sosauce.github.io/support/"
 const val BACKSPACE = "backspace"
 

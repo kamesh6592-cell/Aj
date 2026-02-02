@@ -9,7 +9,7 @@
 
     <application
         android:icon="@mipmap/ic_launcher"
-        android:label="CuteCalc"
+        android:label="AJ Calc"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CuteSplash"
@@ -30,7 +30,7 @@
             android:name=".data.sysui.QSTile"
             android:exported="true"
             android:icon="@drawable/calculator"
-            android:label="CuteCalc"
+            android:label="AJ Calc"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE" />

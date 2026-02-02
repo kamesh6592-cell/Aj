@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.screens.settings.components
+package com.ajstudioz.ajcalc.ui.screens.settings.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding

@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class, ExperimentalMaterial3Api::class)
 
-package com.sosauce.cutecalc.ui.screens.calculator
+package com.ajstudioz.ajcalc.ui.screens.calculator
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -26,21 +26,21 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.util.fastForEach
-import com.sosauce.cutecalc.R
-import com.sosauce.cutecalc.data.actions.CalcAction
-import com.sosauce.cutecalc.data.datastore.rememberHistoryMaxItems
-import com.sosauce.cutecalc.data.datastore.rememberIsLandscape
-import com.sosauce.cutecalc.data.datastore.rememberSaveErrorsToHistory
-import com.sosauce.cutecalc.data.datastore.rememberShowClearButton
-import com.sosauce.cutecalc.data.datastore.rememberUseHistory
-import com.sosauce.cutecalc.domain.repository.HistoryEvents
-import com.sosauce.cutecalc.ui.navigation.Screens
-import com.sosauce.cutecalc.ui.screens.calculator.components.CalcButton
-import com.sosauce.cutecalc.ui.screens.calculator.components.CalculationDisplay
-import com.sosauce.cutecalc.ui.screens.calculator.components.CuteButton
-import com.sosauce.cutecalc.ui.screens.history.HistoryViewModel
-import com.sosauce.cutecalc.utils.BACKSPACE
-import com.sosauce.cutecalc.utils.whichParenthesis
+import com.ajstudioz.ajcalc.R
+import com.ajstudioz.ajcalc.data.actions.CalcAction
+import com.ajstudioz.ajcalc.data.datastore.rememberHistoryMaxItems
+import com.ajstudioz.ajcalc.data.datastore.rememberIsLandscape
+import com.ajstudioz.ajcalc.data.datastore.rememberSaveErrorsToHistory
+import com.ajstudioz.ajcalc.data.datastore.rememberShowClearButton
+import com.ajstudioz.ajcalc.data.datastore.rememberUseHistory
+import com.ajstudioz.ajcalc.domain.repository.HistoryEvents
+import com.ajstudioz.ajcalc.ui.navigation.Screens
+import com.ajstudioz.ajcalc.ui.screens.calculator.components.CalcButton
+import com.ajstudioz.ajcalc.ui.screens.calculator.components.CalculationDisplay
+import com.ajstudioz.ajcalc.ui.screens.calculator.components.CuteButton
+import com.ajstudioz.ajcalc.ui.screens.history.HistoryViewModel
+import com.ajstudioz.ajcalc.utils.BACKSPACE
+import com.ajstudioz.ajcalc.utils.whichParenthesis
 import java.text.DecimalFormatSymbols
 
 

@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.shared_components
+package com.ajstudioz.ajcalc.ui.shared_components
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape

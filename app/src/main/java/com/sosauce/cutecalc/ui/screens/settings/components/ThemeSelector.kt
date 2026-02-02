@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package com.sosauce.cutecalc.ui.screens.settings.components
+package com.ajstudioz.ajcalc.ui.screens.settings.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border

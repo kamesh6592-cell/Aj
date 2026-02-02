@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.screens.settings
+package com.ajstudioz.ajcalc.ui.screens.settings
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Column
@@ -24,23 +24,23 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.sosauce.cutecalc.R
-import com.sosauce.cutecalc.data.datastore.rememberAppTheme
-import com.sosauce.cutecalc.data.datastore.rememberShowClearButton
-import com.sosauce.cutecalc.data.datastore.rememberUseButtonsAnimation
-import com.sosauce.cutecalc.data.datastore.rememberUseSystemFont
-import com.sosauce.cutecalc.data.datastore.rememberVibration
-import com.sosauce.cutecalc.ui.screens.settings.components.FontSelector
-import com.sosauce.cutecalc.ui.screens.settings.components.LazyRowWithScrollButton
-import com.sosauce.cutecalc.ui.screens.settings.components.SettingsSwitch
-import com.sosauce.cutecalc.ui.screens.settings.components.SettingsWithTitle
-import com.sosauce.cutecalc.ui.screens.settings.components.ThemeSelector
-import com.sosauce.cutecalc.ui.shared_components.CuteNavigationButton
-import com.sosauce.cutecalc.ui.theme.nunitoFontFamily
-import com.sosauce.cutecalc.utils.CuteTheme
-import com.sosauce.cutecalc.utils.anyDarkColorScheme
-import com.sosauce.cutecalc.utils.anyLightColorScheme
-import com.sosauce.cutecalc.utils.selfAlignHorizontally
+import com.ajstudioz.ajcalc.R
+import com.ajstudioz.ajcalc.data.datastore.rememberAppTheme
+import com.ajstudioz.ajcalc.data.datastore.rememberShowClearButton
+import com.ajstudioz.ajcalc.data.datastore.rememberUseButtonsAnimation
+import com.ajstudioz.ajcalc.data.datastore.rememberUseSystemFont
+import com.ajstudioz.ajcalc.data.datastore.rememberVibration
+import com.ajstudioz.ajcalc.ui.screens.settings.components.FontSelector
+import com.ajstudioz.ajcalc.ui.screens.settings.components.LazyRowWithScrollButton
+import com.ajstudioz.ajcalc.ui.screens.settings.components.SettingsSwitch
+import com.ajstudioz.ajcalc.ui.screens.settings.components.SettingsWithTitle
+import com.ajstudioz.ajcalc.ui.screens.settings.components.ThemeSelector
+import com.ajstudioz.ajcalc.ui.shared_components.CuteNavigationButton
+import com.ajstudioz.ajcalc.ui.theme.nunitoFontFamily
+import com.ajstudioz.ajcalc.utils.CuteTheme
+import com.ajstudioz.ajcalc.utils.anyDarkColorScheme
+import com.ajstudioz.ajcalc.utils.anyLightColorScheme
+import com.ajstudioz.ajcalc.utils.selfAlignHorizontally
 
 @Composable
 fun SettingsLookAndFeel(
@@ -53,7 +53,7 @@ fun SettingsLookAndFeel(
     var useHapticFeedback by rememberVibration()
     var showClearButton by rememberShowClearButton()
     val themeItems = listOf(
-        _root_ide_package_.com.sosauce.cutecalc.ui.screens.settings.components.ThemeItem(
+        _root_ide_package_.com.ajstudioz.ajcalc.ui.screens.settings.components.ThemeItem(
             onClick = { theme = CuteTheme.SYSTEM },
             backgroundColor = if (isSystemInDarkTheme()) anyDarkColorScheme().background else anyLightColorScheme().background,
             text = stringResource(R.string.follow_sys),
@@ -63,7 +63,7 @@ fun SettingsLookAndFeel(
                 if (isSystemInDarkTheme()) anyDarkColorScheme().onBackground else anyLightColorScheme().onBackground
             )
         ),
-        _root_ide_package_.com.sosauce.cutecalc.ui.screens.settings.components.ThemeItem(
+        _root_ide_package_.com.ajstudioz.ajcalc.ui.screens.settings.components.ThemeItem(
             onClick = { theme = CuteTheme.DARK },
             backgroundColor = anyDarkColorScheme().background,
             text = stringResource(R.string.dark_mode),
@@ -73,7 +73,7 @@ fun SettingsLookAndFeel(
                 anyDarkColorScheme().onBackground
             )
         ),
-        _root_ide_package_.com.sosauce.cutecalc.ui.screens.settings.components.ThemeItem(
+        _root_ide_package_.com.ajstudioz.ajcalc.ui.screens.settings.components.ThemeItem(
             onClick = { theme = CuteTheme.LIGHT },
             backgroundColor = anyLightColorScheme().background,
             text = stringResource(R.string.light_mode),
@@ -83,7 +83,7 @@ fun SettingsLookAndFeel(
                 anyLightColorScheme().onBackground
             )
         ),
-        _root_ide_package_.com.sosauce.cutecalc.ui.screens.settings.components.ThemeItem(
+        _root_ide_package_.com.ajstudioz.ajcalc.ui.screens.settings.components.ThemeItem(
             onClick = { theme = CuteTheme.AMOLED },
             backgroundColor = Color.Black,
             text = stringResource(R.string.amoled_mode),

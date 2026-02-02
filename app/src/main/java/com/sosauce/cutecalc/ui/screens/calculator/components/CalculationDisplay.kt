@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.screens.calculator.components
+package com.ajstudioz.ajcalc.ui.screens.calculator.components
 
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Column
@@ -16,13 +16,13 @@ import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import com.sosauce.cutecalc.data.datastore.rememberDecimal
-import com.sosauce.cutecalc.data.datastore.rememberUseSystemFont
-import com.sosauce.cutecalc.ui.screens.calculator.CalculatorViewModel
-import com.sosauce.cutecalc.ui.theme.nunitoFontFamily
-import com.sosauce.cutecalc.utils.FormatTransformation
-import com.sosauce.cutecalc.utils.formatNumber
-import com.sosauce.cutecalc.utils.isErrorMessage
+import com.ajstudioz.ajcalc.data.datastore.rememberDecimal
+import com.ajstudioz.ajcalc.data.datastore.rememberUseSystemFont
+import com.ajstudioz.ajcalc.ui.screens.calculator.CalculatorViewModel
+import com.ajstudioz.ajcalc.ui.theme.nunitoFontFamily
+import com.ajstudioz.ajcalc.utils.FormatTransformation
+import com.ajstudioz.ajcalc.utils.formatNumber
+import com.ajstudioz.ajcalc.utils.isErrorMessage
 
 @Composable
 fun CalculationDisplay(

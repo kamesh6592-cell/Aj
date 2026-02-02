@@ -13,12 +13,12 @@ plugins {
 
 
 android {
-    namespace = "com.sosauce.cutecalc"
+    namespace = "com.ajstudioz.ajcalc"
     compileSdk = 36
 
     defaultConfig {
 
-        applicationId = "com.sosauce.cutecalc"
+        applicationId = "com.ajstudioz.ajcalc"
         minSdk = 23
         targetSdk = 36
         versionCode = 40002
@@ -35,7 +35,7 @@ android {
         variant.outputs
             .map { it as com.android.build.gradle.internal.api.BaseVariantOutputImpl }
             .forEach { output ->
-                val outputFileName = "CC_${variant.versionName}.apk"
+                val outputFileName = "AJ_Calc_${variant.versionName}.apk"
                 output.outputFileName = outputFileName
             }
     }

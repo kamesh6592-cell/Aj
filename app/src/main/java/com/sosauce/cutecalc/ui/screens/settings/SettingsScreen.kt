@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalUuidApi::class)
 
-package com.sosauce.cutecalc.ui.screens.settings
+package com.ajstudioz.ajcalc.ui.screens.settings
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedContent
@@ -25,13 +25,13 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.sosauce.cutecalc.R
-import com.sosauce.cutecalc.ui.navigation.Screens
-import com.sosauce.cutecalc.ui.navigation.SettingsScreen
-import com.sosauce.cutecalc.ui.screens.settings.components.AboutCard
-import com.sosauce.cutecalc.ui.screens.settings.components.SettingsCategoryCard
-import com.sosauce.cutecalc.ui.shared_components.CuteNavigationButton
-import com.sosauce.cutecalc.utils.selfAlignHorizontally
+import com.ajstudioz.ajcalc.R
+import com.ajstudioz.ajcalc.ui.navigation.Screens
+import com.ajstudioz.ajcalc.ui.navigation.SettingsScreen
+import com.ajstudioz.ajcalc.ui.screens.settings.components.AboutCard
+import com.ajstudioz.ajcalc.ui.screens.settings.components.SettingsCategoryCard
+import com.ajstudioz.ajcalc.ui.shared_components.CuteNavigationButton
+import com.ajstudioz.ajcalc.utils.selfAlignHorizontally
 import kotlin.uuid.ExperimentalUuidApi
 import kotlin.uuid.Uuid
 

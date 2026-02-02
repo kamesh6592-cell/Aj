@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.screens.calculator.components
+package com.ajstudioz.ajcalc.ui.screens.calculator.components
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.ExperimentalComposeUiApi

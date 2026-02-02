@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.data.datastore
+package com.ajstudioz.ajcalc.data.datastore
 
 import android.content.Context
 import androidx.compose.runtime.Composable
@@ -9,7 +9,7 @@ import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
-import com.sosauce.cutecalc.utils.CuteTheme
+import com.ajstudioz.ajcalc.utils.CuteTheme
 
 
 val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")

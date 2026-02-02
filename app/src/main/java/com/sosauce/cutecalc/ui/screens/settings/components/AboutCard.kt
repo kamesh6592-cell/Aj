@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.screens.settings.components
+package com.ajstudioz.ajcalc.ui.screens.settings.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -26,9 +26,9 @@ import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.sosauce.cutecalc.R
-import com.sosauce.cutecalc.utils.GITHUB_RELEASES
-import com.sosauce.cutecalc.utils.SUPPORT_PAGE
+import com.ajstudioz.ajcalc.R
+import com.ajstudioz.ajcalc.utils.GITHUB_RELEASES
+import com.ajstudioz.ajcalc.utils.SUPPORT_PAGE
 
 @Composable
 fun AboutCard() {

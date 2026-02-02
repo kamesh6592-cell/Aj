@@ -1,6 +1,6 @@
-package com.sosauce.cutecalc.domain.repository
+package com.ajstudioz.ajcalc.domain.repository
 
-import com.sosauce.cutecalc.domain.model.Calculation
+import com.ajstudioz.ajcalc.domain.model.Calculation
 
 sealed interface HistoryEvents {
 

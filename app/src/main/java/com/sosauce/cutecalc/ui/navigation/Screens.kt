@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.navigation
+package com.ajstudioz.ajcalc.ui.navigation
 
 enum class Screens {
     MAIN,

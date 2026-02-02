@@ -1,12 +1,12 @@
-package com.sosauce.cutecalc.utils
+package com.ajstudioz.ajcalc.utils
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.room.Room
-import com.sosauce.cutecalc.domain.repository.HistoryDatabase
-import com.sosauce.cutecalc.ui.screens.calculator.CalculatorViewModel
-import com.sosauce.cutecalc.ui.screens.history.HistoryViewModel
+import com.ajstudioz.ajcalc.domain.repository.HistoryDatabase
+import com.ajstudioz.ajcalc.ui.screens.calculator.CalculatorViewModel
+import com.ajstudioz.ajcalc.ui.screens.history.HistoryViewModel
 
 
 class HistoryViewModelFactory(val application: Application) : ViewModelProvider.Factory {

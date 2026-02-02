@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.domain.model
+package com.ajstudioz.ajcalc.domain.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

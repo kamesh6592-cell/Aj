@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.data.datastore
+package com.ajstudioz.ajcalc.data.datastore
 
 import android.content.Context
 import android.content.res.Configuration

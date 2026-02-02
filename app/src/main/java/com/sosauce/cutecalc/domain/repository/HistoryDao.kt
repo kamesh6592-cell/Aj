@@ -1,10 +1,10 @@
-package com.sosauce.cutecalc.domain.repository
+package com.ajstudioz.ajcalc.domain.repository
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
-import com.sosauce.cutecalc.domain.model.Calculation
+import com.ajstudioz.ajcalc.domain.model.Calculation
 import kotlinx.coroutines.flow.Flow
 
 @Dao

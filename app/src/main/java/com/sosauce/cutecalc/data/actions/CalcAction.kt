@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.data.actions
+package com.ajstudioz.ajcalc.data.actions
 
 sealed interface CalcAction {
     data object GetResult : CalcAction

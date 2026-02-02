@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.screens.settings.components
+package com.ajstudioz.ajcalc.ui.screens.settings.components
 
 import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.slideOutHorizontally
@@ -13,7 +13,7 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
-import com.sosauce.cutecalc.R
+import com.ajstudioz.ajcalc.R
 import kotlinx.coroutines.launch
 
 @Composable

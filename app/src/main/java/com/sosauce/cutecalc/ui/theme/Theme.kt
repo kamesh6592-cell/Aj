@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package com.sosauce.cutecalc.ui.theme
+package com.ajstudioz.ajcalc.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
@@ -13,12 +13,12 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
-import com.sosauce.cutecalc.R
-import com.sosauce.cutecalc.data.datastore.rememberAppTheme
-import com.sosauce.cutecalc.data.datastore.rememberUseSystemFont
-import com.sosauce.cutecalc.utils.CuteTheme
-import com.sosauce.cutecalc.utils.anyDarkColorScheme
-import com.sosauce.cutecalc.utils.anyLightColorScheme
+import com.ajstudioz.ajcalc.R
+import com.ajstudioz.ajcalc.data.datastore.rememberAppTheme
+import com.ajstudioz.ajcalc.data.datastore.rememberUseSystemFont
+import com.ajstudioz.ajcalc.utils.CuteTheme
+import com.ajstudioz.ajcalc.utils.anyDarkColorScheme
+import com.ajstudioz.ajcalc.utils.anyLightColorScheme
 
 @Composable
 fun CuteCalcTheme(

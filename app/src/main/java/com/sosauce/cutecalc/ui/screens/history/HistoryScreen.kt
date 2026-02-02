@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package com.sosauce.cutecalc.ui.screens.history
+package com.ajstudioz.ajcalc.ui.screens.history
 
 import android.content.ClipData
 import androidx.compose.foundation.basicMarquee
@@ -43,21 +43,21 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.sosauce.cutecalc.R
-import com.sosauce.cutecalc.data.datastore.rememberDecimal
-import com.sosauce.cutecalc.data.datastore.rememberHistoryNewestFirst
-import com.sosauce.cutecalc.data.datastore.rememberUseHistory
-import com.sosauce.cutecalc.domain.model.Calculation
-import com.sosauce.cutecalc.domain.repository.HistoryEvents
-import com.sosauce.cutecalc.ui.navigation.Screens
-import com.sosauce.cutecalc.ui.screens.history.components.DeletionConfirmationDialog
-import com.sosauce.cutecalc.ui.screens.history.components.HistoryActionButtons
-import com.sosauce.cutecalc.ui.shared_components.CuteDropdownMenuItem
-import com.sosauce.cutecalc.ui.shared_components.CuteNavigationButton
-import com.sosauce.cutecalc.utils.formatExpression
-import com.sosauce.cutecalc.utils.formatNumber
-import com.sosauce.cutecalc.utils.isErrorMessage
-import com.sosauce.cutecalc.utils.sort
+import com.ajstudioz.ajcalc.R
+import com.ajstudioz.ajcalc.data.datastore.rememberDecimal
+import com.ajstudioz.ajcalc.data.datastore.rememberHistoryNewestFirst
+import com.ajstudioz.ajcalc.data.datastore.rememberUseHistory
+import com.ajstudioz.ajcalc.domain.model.Calculation
+import com.ajstudioz.ajcalc.domain.repository.HistoryEvents
+import com.ajstudioz.ajcalc.ui.navigation.Screens
+import com.ajstudioz.ajcalc.ui.screens.history.components.DeletionConfirmationDialog
+import com.ajstudioz.ajcalc.ui.screens.history.components.HistoryActionButtons
+import com.ajstudioz.ajcalc.ui.shared_components.CuteDropdownMenuItem
+import com.ajstudioz.ajcalc.ui.shared_components.CuteNavigationButton
+import com.ajstudioz.ajcalc.utils.formatExpression
+import com.ajstudioz.ajcalc.utils.formatNumber
+import com.ajstudioz.ajcalc.utils.isErrorMessage
+import com.ajstudioz.ajcalc.utils.sort
 
 @Composable
 fun HistoryScreen(

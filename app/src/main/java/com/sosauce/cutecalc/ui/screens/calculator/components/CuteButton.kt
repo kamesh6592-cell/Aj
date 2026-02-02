@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package com.sosauce.cutecalc.ui.screens.calculator.components
+package com.ajstudioz.ajcalc.ui.screens.calculator.components
 
 import androidx.compose.animation.core.animateIntAsState
 import androidx.compose.foundation.background
@@ -35,11 +35,11 @@ import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.role
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
-import com.sosauce.cutecalc.R
-import com.sosauce.cutecalc.data.datastore.rememberUseButtonsAnimation
-import com.sosauce.cutecalc.data.datastore.rememberVibration
-import com.sosauce.cutecalc.utils.BACKSPACE
-import com.sosauce.cutecalc.utils.thenIf
+import com.ajstudioz.ajcalc.R
+import com.ajstudioz.ajcalc.data.datastore.rememberUseButtonsAnimation
+import com.ajstudioz.ajcalc.data.datastore.rememberVibration
+import com.ajstudioz.ajcalc.utils.BACKSPACE
+import com.ajstudioz.ajcalc.utils.thenIf
 
 @Composable
 fun RowScope.CuteButton(

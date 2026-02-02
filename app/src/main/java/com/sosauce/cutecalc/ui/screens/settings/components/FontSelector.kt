@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalMaterial3ExpressiveApi::class)
 
-package com.sosauce.cutecalc.ui.screens.settings.components
+package com.ajstudioz.ajcalc.ui.screens.settings.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -24,12 +24,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.sosauce.cutecalc.R
-import com.sosauce.cutecalc.ui.screens.settings.FontStyle
+import com.ajstudioz.ajcalc.R
+import com.ajstudioz.ajcalc.ui.screens.settings.FontStyle
 
 @Composable
 fun FontSelector(
-    item: com.sosauce.cutecalc.ui.screens.settings.FontItem
+    item: com.ajstudioz.ajcalc.ui.screens.settings.FontItem
 ) {
     Column(
         verticalArrangement = Arrangement.Center,

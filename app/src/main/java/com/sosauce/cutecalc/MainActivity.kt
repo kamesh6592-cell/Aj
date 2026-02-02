@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc
+package com.ajstudioz.ajcalc
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,12 +8,12 @@ import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.runtime.getValue
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.WindowCompat
-import com.sosauce.cutecalc.data.datastore.rememberAppTheme
-import com.sosauce.cutecalc.data.datastore.rememberShowOnLockScreen
-import com.sosauce.cutecalc.ui.navigation.Nav
-import com.sosauce.cutecalc.ui.theme.CuteCalcTheme
-import com.sosauce.cutecalc.utils.CuteTheme
-import com.sosauce.cutecalc.utils.showOnLockScreen
+import com.ajstudioz.ajcalc.data.datastore.rememberAppTheme
+import com.ajstudioz.ajcalc.data.datastore.rememberShowOnLockScreen
+import com.ajstudioz.ajcalc.ui.navigation.Nav
+import com.ajstudioz.ajcalc.ui.theme.CuteCalcTheme
+import com.ajstudioz.ajcalc.utils.CuteTheme
+import com.ajstudioz.ajcalc.utils.showOnLockScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

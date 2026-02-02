@@ -1,11 +1,11 @@
-package com.sosauce.cutecalc.ui.screens.history
+package com.ajstudioz.ajcalc.ui.screens.history
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.sosauce.cutecalc.domain.model.Calculation
-import com.sosauce.cutecalc.domain.repository.HistoryDao
-import com.sosauce.cutecalc.domain.repository.HistoryEvents
-import com.sosauce.cutecalc.utils.isErrorMessage
+import com.ajstudioz.ajcalc.domain.model.Calculation
+import com.ajstudioz.ajcalc.domain.repository.HistoryDao
+import com.ajstudioz.ajcalc.domain.repository.HistoryEvents
+import com.ajstudioz.ajcalc.utils.isErrorMessage
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch

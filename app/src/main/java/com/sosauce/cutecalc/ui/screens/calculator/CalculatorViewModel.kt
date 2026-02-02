@@ -1,4 +1,4 @@
-package com.sosauce.cutecalc.ui.screens.calculator
+package com.ajstudioz.ajcalc.ui.screens.calculator
 
 import android.app.Application
 import androidx.compose.foundation.text.input.TextFieldState
@@ -10,12 +10,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.runtime.snapshotFlow
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import com.sosauce.cutecalc.data.actions.CalcAction
-import com.sosauce.cutecalc.data.calculator.Evaluator
-import com.sosauce.cutecalc.data.datastore.getDecimalPrecision
-import com.sosauce.cutecalc.utils.backspace
-import com.sosauce.cutecalc.utils.insertText
-import com.sosauce.cutecalc.utils.isErrorMessage
+import com.ajstudioz.ajcalc.data.actions.CalcAction
+import com.ajstudioz.ajcalc.data.calculator.Evaluator
+import com.ajstudioz.ajcalc.data.datastore.getDecimalPrecision
+import com.ajstudioz.ajcalc.utils.backspace
+import com.ajstudioz.ajcalc.utils.insertText
+import com.ajstudioz.ajcalc.utils.isErrorMessage
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.collectLatest
