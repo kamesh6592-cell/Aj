@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+
+:root {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #fdf2f2;
+}
+
+#root {
+  width: 100%;
+}
+
+.m3-button {
+  @apply transition-all duration-200 active:scale-95 flex items-center justify-center text-2xl font-bold;
+  border-radius: 28px;
+  height: 72px;
+}
+
+.m3-button-sq {
+  @apply rounded-3xl;
+}
+
+.m3-button-tonal {
+  background-color: #FFD8D3;
+  color: #410002;
+}
+
+.m3-button-secondary {
+  background-color: #F9B3A9;
+  color: #410002;
+}
+
+.m3-button-surface {
+  background-color: #FFF1F0;
+  color: #410002;
+}
+
+.m3-button-primary {
+  background-color: #F9B3A9;
+  color: #410002;
+}
